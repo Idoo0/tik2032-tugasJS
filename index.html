@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="full-height">
+    <div class="profile-image">
+      <img src="assets/photo.png" alt="Foto Profil">
+    </div>
+    <div class="profile-text">
+      <h1>Hallooo!</h1>
+      <p>Hai, saya Ridho Aditya, your favorite engginer 😎</p>
+      <div class="button-down">
+        <div class="button-down-cv">
+          <button>Download CV</button>
+        </div>
+        <div class="button-contact-me">
+          <button>Contact Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="full-height">
+    <section class="carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper">
+            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+          </div>
+        </li>
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+        </li>
+      </ol>
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+          </li>
+        </ol>
+      </aside>
+    </section>
+  </section>
+
+  <section id="blog" class="full-height">
+    <div class="container">
+      <div class="card">
+        <div class="card__header">
+          <img src="https://source.unsplash.com/600x400/?computer" alt="card__image" class="card__image" width="600">
+        </div>
+        <div class="card__body">
+          <span class="tag tag-blue">Technology</span>
+          <h4>
+            <a
+              href="https://medium.com/@vixal/devin-ai-vs-microsoft-autodev-who-will-eat-your-job-first-4aa4a3ee621d" style="text-decoration: none;">Devin
+              AI vs Microsoft AutoDev, Who will eat your job first?
+            </a>
+          </h4>
+          <p>The software development landscape is on the cusp of a revolution. Enter Devin AI and Microsoft AutoDev,
+            two groundbreaking advancements in AI-powered coding that promise to reshape how software is built. But with
+            such distinct approaches, which reigns supreme? Let’s delve into the intricate details of Devin and AutoDev,
+            exploring their strengths, weaknesses, and potential for collaboration</p>
+        </div>
+        <div class="card__footer">
+          <div class="user">
+            <img src="https://i.pravatar.cc/40?img=1" alt="user__image" class="user__image">
+            <div class="user__info">
+              <h5>Vishal Baraiya</h5>
+              <small>2h ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__header">
+          <img src="https://source.unsplash.com/600x400/?food" alt="card__image" class="card__image" width="600">
+        </div>
+        <div class="card__body">
+          <span class="tag tag-brown">Food</span>
+          <h4>
+            <a href="https://medium.com/food-blog/gazpacho-andaluz-34f96996de09" style="text-decoration: none;">
+              Andaluz from Spain
+            </a>
+          </h4>
+          <p>This is that famous chilled tomato soup from the South of Spain. And nothing says summer like a gazpacho.
+            So here goes:</p>
+        </div>
+        <div class="card__footer">
+          <div class="user">
+            <img src="https://i.pravatar.cc/40?img=2" alt="user__image" class="user__image">
+            <div class="user__info">
+              <h5>Jonathan Teper</h5>
+              <small>Yesterday</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__header">
+          <img src="https://source.unsplash.com/600x400/?car,automobile" alt="card__image" class="card__image"
+            width="600">
+        </div>
+        <div class="card__body">
+          <span class="tag tag-red">Automobile</span>
+          <h4>
+            <a href="https://medium.com/@doctorow/https-pluralistic-net-2024-03-12-market-failure-car-wars-5f015e3af6cf" style="text-decoration: none;">
+              Your car spies on you and rats you out to insurance companies</h4>
+            </a>
+          <p>Another characteristically brilliant Kashmir Hill story for The New York Times reveals another
+            characteristically terrible fact about modern life: your car secretly records fine-grained telemetry about
+            your driving and sells it to data-brokers, who sell it to insurers, who use it as a pretext to gouge you on
+            premiums:</p>
+        </div>
+        <div class="card__footer">
+          <div class="user">
+            <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image">
+            <div class="user__info">
+              <h5>Cory Doctorow</h5>
+              <small>2d ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="full-height">
+    <div class="landing_page">
+      <div class="responsive-container-block big-container">
+        <div class="responsive-container-block container">
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 left-one">
+            <div class="content-box">
+              <p class="text-blk section-head">
+                Get in Touch
+              </p>
+              <p class="text-blk section-subhead">
+                Lets reach me out for further deal
+                and collaboration
+              </p>
+              <div class="icons-container">
+                <a class="share-icon">
+                  <img class="img"
+                    src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png">
+                </a>
+                <a class="share-icon">
+                  <img class="img"
+                    src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png">
+                </a>
+                <a class="share-icon">
+                  <img class="img"
+                    src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png">
+                </a>
+                <a class="share-icon">
+                  <img class="img"
+                    src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6 right-one" id="i1zj">
+            <form class="form-box">
+              <div class="container-block form-wrapper">
+                <p class="text-blk contactus-head">
+                  <a class="link" href="">
+                  </a>
+                  Get a quote
+                </p>
+                <p class="text-blk contactus-subhead">
+                  We will get back to you in 24 hours
+                </p>
+                <div class="responsive-container-block">
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-7">
+                    <input class="input" id="ijowk-7" name="FirstName" placeholder="First Name">
+                  </div>
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i1ro7">
+                    <input class="input" id="indfi-5" name="Last Name" placeholder="Last Name">
+                  </div>
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-6 wk-ipadp-6 emial" id="ityct">
+                    <input class="input" id="ipmgh-7" name="Email" placeholder="Email">
+                  </div>
+                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                    <input class="input" id="imgis-6" name="PhoneNumber" placeholder="Phone Number">
+                  </div>
+                </div>
+                <button class="submit-btn">
+                  Get quote
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<script src="script.js"></script>cr
+</body>
+
+</html>
